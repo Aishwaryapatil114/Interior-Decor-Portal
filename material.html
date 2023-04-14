@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="style1.css"> -->
+</head>
+
+<body>
+  <form class="form-inline" method="post" action="Material1.php">
+    <center>
+      <h1>Material Table</h1>
+      <table style align="center" title="Material Table">
+        <tr>
+          
+          <td><label for="Material ID"> Material ID</label></td>
+          <td><input type="text"  name="Materialid" placeholder="4567234"></td>
+          
+        </tr>
+
+        <!--Description-->
+        <tr>
+          
+          <td><label for="Description">Description</label> <br></td>
+          <td><textarea name="Message"  cols="20" rows="5"></textarea></td>
+          
+        </tr>
+        <!--Type-->
+        <tr>
+          
+          <td> <label for="Type">Type</label></td>
+          <td> <input type="text" name="Type" ></td>
+          
+        </tr>
+        
+        <!-- Siize Type -->
+        <tr>
+          
+            <td> <label for="Size"></label>Mtype</td>
+            <td><input type="text"  name="Size" ></td>
+            
+          </tr>
+        <!-- Material Type -->
+        <tr>
+          
+          <td> <label for="Mtype"></label>Mtype</td>
+          <td><input type="text"  name="Mtype" placeholder="pywood"></td>
+          
+        </tr>
+
+         <!--Make -->
+         <tr>
+            <!-- <div class="box"> -->
+            <td> <label for="Make">Make</label></td>
+            <td> <input type="number" name="Make" ></td>
+            
+          </tr>
+
+
+        <!--Stock -->
+        <tr>
+          <!-- <div class="box"> -->
+          <td> <label for="Stock">Stock</label></td>
+          <td> <input type="number" name="Stock" ></td>
+          
+        </tr>
+
+        <!--UOM -->
+        <tr>
+          
+          <td> <label for="UOM">UOM</label></td>
+          <td> <input type="text" name="UOM" ></td>
+          
+        </tr>
+        <br>
+        <br><br> <br> <br> <br> <br>
+      </table>
+
+      <!-- Input submit -->
+
+      <br>
+      <br>
+        <td><input name=sbm  type="submit" value="Submit"></td>
+        <td><input name=sbm  type="submit" value="Update"></td>
+        <td><input name=sbm  type="submit" value="Delete"></td>
+        <td><input name=sbm  type="submit" value="Display"></td>
+        <td><input name=sbm  type="submit" value="Search"></td>
+      
+    </center>
+  </form>
+
+</body>
+

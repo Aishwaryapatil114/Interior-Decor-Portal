@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="style1.css"> -->
+</head>
+
+<body>
+  <form name="frm" method=post action="empallocation.php">
+    <center>
+      <h1>EmployeeAllocation Table</h1>
+      <table style align="center" title="Material Table">
+        <!-- Allocation Number -->
+        <tr>
+          <!-- <div class="box"> -->
+          <td><label for="Allocation Number"> Allocation Number</label></td>
+          <td><input type="text" name="alocno" placeholder="4567234"></td>
+          <!-- </div> -->
+        </tr>
+
+        <!--Allocation Date-->
+        <tr>
+          <!-- <div class="box"> -->
+          <td><label for="Allocation Date">Allocation Date</label> <br></td>
+          <td><input type="date" name="alocdate"></td>
+          <!-- </div> -->
+        </tr>
+
+        <!--Site ID-->
+        <tr>
+          <!-- <div class="box"> -->
+          <td> <label for="Site ID">Site ID</label></td>
+          <td> <input type="number" name="siteid" ></td>
+          <!-- </div> -->
+        </tr>
+
+        <!-- Employee Id -->
+        <tr>
+          <!-- <div class="box"> -->
+          <td> <label for="Employee Id"></label>Employee Id</td>
+          <td><input type="number" name="empid"></td>
+          <!-- </div> -->
+        </tr>
+
+
+        <br>
+        <br><br> <br> <br> <br> <br>
+      </table>
+
+      <!-- Input submit -->
+
+      <br>
+      <br>
+      <!-- <div class="buttons"> -->
+      <td><input name=sbm  type="submit" value="Submit"></td>
+      <td><input name=sbm  type="submit" value="Update"></td>
+      <td><input name=sbm  type="submit" value="Delete"></td>
+      <td><input name=sbm  type="submit" value="Display"></td>
+      <td><input name=sbm  type="submit" value="Search"></td>
+      <!-- </div> -->
+    </center>
+  </form>
+
+</body>
+
+</html>

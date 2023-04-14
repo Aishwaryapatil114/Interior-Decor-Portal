@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="app.js"></script>
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="style1.css"> -->
+</head>
+
+<body>
+  <form class="form-inline"  method=post action="payment.php">
+    <center>
+      <h1>Payment Table</h1>
+      <table style align="center" title="Material Table">
+        <!-- Payment ID -->
+        <tr>
+          <td><label for="Payment ID"> Payment ID</label></td>
+          <td><input type="text" name="Paymentid" placeholder="4567234" onclick="valid2()"></td>
+          
+        </tr>
+
+        <!--Payment Date-->
+        <tr>
+          <td><label for="Payment Date">Payment Date</label> <br></td>
+          <td><input type="date" name="paymentdate" ></td>
+          
+        </tr>
+
+        <!--Employee Id -->
+        <tr>
+          <td> <label for="Employee Id">Employee Id</label></td>
+          <td> <input type="text" name="employeeid"  onkeypress="valid2()"></td>
+          
+        </tr>
+
+
+        <!--Amount-->
+        <tr>
+          <td> <label for="Amount">Amount</label></td>
+          <td> <input type="number" name="amount" onkeypress="valid1()"></td>
+          
+        </tr>
+
+        <br>
+        <br><br> <br> <br> <br> <br>
+      </table>
+
+      <!-- Input submit -->
+
+      <br>
+      <br>
+      <!-- <div class="buttons"> -->
+        <td><input name=sbm  type="submit" value="Submit"></td>
+        <td><input name=sbm  type="submit" value="Update"></td>
+        <td><input name=sbm  type="submit" value="Delete"></td>
+        <td><input name=sbm  type="submit" value="Display"></td>
+        <td><input name=sbm  type="submit" value="Search"></td>
+      
+    </center>
+  </form>
+
+</body>
+
+</html>

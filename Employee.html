@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="style1.css"> -->
+</head>
+
+<body>
+  <form class="form-inline" method=post action="employee.php">
+    <center>
+      <h1>Employee Table</h1>
+      <table style align="center" title="Material Table">
+        <tr>
+          <td><label for="Employee ID"> Employee ID</label></td>
+          <td><input type="text"   name="empid" placeholder="4567234"></td>
+       </tr>
+
+        <!--Name-->
+        <tr>
+          <td><label for="Name">Name</label> <br></td>
+          <td><input type="text"  name="empname"></td>
+        </tr>
+        <!--Address-->
+        <tr>
+          <td> <label for="Address">Address</label></td>
+          <td> <input type="text" name="empaddress" ></td>
+        </tr>
+        <!-- contact number -->
+        <tr>
+           <td> <label for="Contact no"></label>Contact</td>
+           <td><input type="text"  name="contactnumber"></td>
+        </tr>
+
+
+        <!--Skill -->
+        <tr>
+          <td> <label for="Skill">Skill</label></td>
+          <td> <input type="text" name="empskill" ></td>
+        </tr>
+
+        <!--Employee type-->
+        <tr>
+         <td> <label for="Emptype">Employee Type</label></td>
+          <td> <input type="text" name="emptype"></td>
+        </tr>
+        <tr>
+
+          <!-- Gender -->
+            <tr>
+              <td> <label for="Gender">Gender</label></td>
+              <td><select name="empgender" >
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+              </select></td>
+                 </tr>
+
+        <!--Age -->
+        <tr>
+          <td> <label for="Age">Age</label></td>
+          <td> <input type="number" name="empage" ></td>
+        </tr>
+        <!-- Rate-->
+        <tr>
+          <td> <label for="Rate">Rate</label></td>
+          <td> <input type="number" name="emprate" ></td>
+        </tr>
+        <br>
+        <br><br> <br> <br> <br> <br>
+      </table>
+
+      <!-- Input submit -->
+
+      <br>
+      <br>
+      <td><input name=sbm  type="submit" value="Submit"></td>
+      <td><input name=sbm  type="submit" value="Update"></td>
+      <td><input name=sbm  type="submit" value="Delete"></td>
+      <td><input name=sbm  type="submit" value="Display"></td>
+      <td><input name=sbm  type="submit" value="Search"></td>
+    </center>
+  </form>
+
+</body>
+</html>

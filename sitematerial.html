@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="style1.css"> -->
+</head>
+
+<body>
+  <form class="form-inline" method=post action="sitematerial.php">
+    <center>
+      <h1>SiteMaterial Table</h1>
+      <table style align="center" title="Material Table">
+        <tr>
+         
+          <td><label for="SiteMaterial number"> SiteMaterial number</label></td>
+          <td><input type="number" name="sitematerialnumber" placeholder="4567234"></td>
+          
+        </tr>
+
+        <!--SiteMaterial date-->
+        <tr>
+         
+          <td><label for="Sitematerial date">Sitematerial date</label> <br></td>
+          <td><input type="date" name="sitedate"></td>
+          
+        </tr>
+
+        <!--Material ID-->
+        <tr>
+         
+          <td> <label for="Material Id">Material Id</label></td>
+          <td> <input type="text" name="materialid" ></td>
+          
+        </tr>
+
+        <!-- Quantity -->
+        <tr>
+         
+          <td> <label for="Quantity "></label>Quantity</td>
+          <td><input type="number" name="quantity"></td>
+          
+        </tr>
+
+
+        <!--Transport -->
+        <tr>
+         
+          <td> <label for="Transport">Transport</label></td>
+          <td> <input type="text" name="transp" ></td>
+          
+        </tr>
+
+        <br>
+        <br><br> <br> <br> <br> <br>
+      </table>
+
+      <!-- Input submit -->
+
+      <br>
+      <br>
+      <!-- <div class="buttons"> -->
+        <td><input name=sbm  type="submit" value="Submit"></td>
+        <td><input name=sbm  type="submit" value="Update"></td>
+        <td><input name=sbm  type="submit" value="Delete"></td>
+        <td><input name=sbm  type="submit" value="Display"></td>
+        <td><input name=sbm  type="submit" value="Search"></td>
+      
+    </center>
+  </form>
+
+</body>
+
+</html>
