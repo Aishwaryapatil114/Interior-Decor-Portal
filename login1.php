@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- <script language=javascript>
+    <script language=javascript>
         function toprint()
         {
             window.print();
@@ -69,7 +69,7 @@
                 event.keyCode=0;    
                 return false;
                 }
-            } -->
+            }
 
     </script>
 </head>
